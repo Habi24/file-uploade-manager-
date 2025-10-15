@@ -1,0 +1,185 @@
+
+
+* {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif, Geneva, Tahoma;
+}
+
+body {
+  background: #4a90e2;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  gap: 12px;
+}
+
+.navbar a {
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Containers */
+.container {
+  max-width: 1000px;
+  margin: 60px auto;
+  display: flex;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 40px;
+  gap: 40px;
+}
+
+.upload-box, .uploaded-box {
+  flex: 1;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Drop area */
+.drop-area {
+  border: 2px dashed #0a67f3;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background: #f7faff;
+  cursor: pointer;
+}
+
+.drop-area:hover {
+  background: #e0f0ff;
+}
+
+.drop-area img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.drop-area p {
+  margin: 8px 0;
+  color: #333;
+}
+
+.drop-area button {
+  padding: 10px 20px;
+  background: #4285f4;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.upload-box button {
+  display: block;
+  margin: 20px auto 0;
+}
+
+/* File list */
+ul#fileList {
+  margin-top: 20px;
+  list-style: none;
+}
+
+ul#fileList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+ul#fileList img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Welcome & Login Boxes */
+.welcome-container, .login-container {
+  max-width: 400px;
+  margin: 120px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.welcome-container h1, .login-container h2 {
+  color: #333;
+}
+
+.welcome-container button, .login-container button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #4285f4;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Success box */
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.contact-container {
+  background-color: #f8f8f8;  /* ✅ Light gray instead of blue */
+  color: #333;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: left;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+  background-color: white;  /* ✅ No blue background */
+  color: #222;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+}

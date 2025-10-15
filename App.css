@@ -1,0 +1,62 @@
+*
+.welcome-container, .login-container {
+max-width: 400px;
+margin: 120px auto;
+padding: 40px;
+background: white;
+border-radius: 12px;
+text-align: center;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+
+.welcome-container button, .login-container button {
+margin-top: 20px;
+padding: 12px 24px;
+background-color: #4285f4;
+border: none;
+color: white;
+border-radius: 8px;
+cursor: pointer;
+font-weight: 600;
+}
+
+
+.login-container input {
+width: 100%;
+padding: 12px;
+margin-top: 20px;
+border-radius: 6px;
+border: 1px solid #ccc;
+}
+
+
+.centered {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+
+.box {
+text-align: center;
+background: white;
+padding: 40px;
+border-radius: 12px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+
+.success-icon {
+width: 80px;
+height: 80px;
+margin-bottom: 15px;
+animation: bounce 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes bounce {
+0% { transform: translateY(0); }
+100% { transform: translateY(-8px); }
+}
